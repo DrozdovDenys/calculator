@@ -1,0 +1,140 @@
+/* Write your styles here */
+/*
+colors
+bg #000
+orange #ff9501
+grey #a6a6a6
+white #fdfdfd
+ */
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10vw;
+  gap: 10px;
+}
+.calc {
+  /* margin: 50px auto; */
+  width: 300px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 20px;
+  color: #fff;
+  font-family: Arial;
+  padding: 18px;
+  box-shadow: 4px 4px 4px #4f4f4f;
+}
+.calc-screen {
+  height: 125px;
+  padding: 10px;
+  display: grid;
+  justify-items: end;
+  align-items: end;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+
+.calc-screen p {
+  text-align: right;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-areas:
+    "ac plus-minus percent division"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero dot equal";
+  grid-gap: 7px;
+  justify-items: center;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  background: #333;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:hover {
+  filter: brightness(120%);
+}
+
+.btn:active {
+  filter: brightness(90%);
+}
+
+.bg-gray {
+  background: #a6a6a6;
+}
+
+.bg-orange {
+  background: #ff9501;
+}
+
+.zero {
+  grid-area: zero;
+  width: 100%;
+  border-radius: 34px;
+}
+
+.log {
+  width: 300px;
+  height: 500px;
+  background-color: #a6a6a6;
+  padding: 18px;
+  overflow: auto;
+  border-radius: 25px;
+  box-shadow: 4px 4px 4px #4f4f4f;
+}
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid red;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.circle:hover {
+  background-color: red;
+}
+.close {
+  transition: color 0.3s;
+}
+
+.close:hover {
+  color: red;
+}
+.log__list li {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 2px outset;
+  margin: 3px;
+  padding: 5px;
+  transition: background 0.3s;
+}
+
+.log__list li:hover {
+  background-color: #fff;
+}
+
+.bg-red {
+  background-color: red;
+}
