@@ -12,7 +12,6 @@
 + JavaScript
 + jQuery 
 + Grid 
-+ Figma
 
 1. Main calculator features:
    - Numbers should be displayed on screen when you click on number button.
