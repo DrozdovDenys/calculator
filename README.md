@@ -5,14 +5,6 @@
 <h2>Descripion</h2>
  Created simple calculator and logs block.
 
-<h2>Technologies</h2>
-
-+ HTML
-+ SCSS
-+ JavaScript
-+ jQuery 
-+ Grid 
-
 1. Main calculator features:
    - Numbers should be displayed on screen when you click on number button.
    - When you select one operator, then another, the second one should replace first one on the screen.
@@ -29,5 +21,13 @@
    - Add filter in logs: when equation contains ‘48’ – underline it.
    - When you receive ‘ERROR’ on screen, you should not display the equation in logs block.
    - When you click on close icon you should remove log
+
+<h2>Technologies</h2>
+
++ HTML
++ SCSS
++ JavaScript
++ jQuery 
++ Grid 
 
 <h3 align="center"><a href="https://drozdovdenys.github.io/calculator/">SEE LIVE</a></h3>
