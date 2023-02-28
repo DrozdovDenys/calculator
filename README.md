@@ -15,6 +15,6 @@
 + Figma
 
 1. Main calculator features:
-- Numbers should be displayed on screen when you click on number button.
+   - Numbers should be displayed on screen when you click on number button.
 
 <h3 align="center"><a href="https://drozdovdenys.github.io/calculator/">SEE LIVE</a></h3>
