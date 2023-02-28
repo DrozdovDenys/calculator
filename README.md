@@ -25,7 +25,7 @@
 <h2>Technologies</h2>
 
 + HTML
-+ SCSS
++ CSS
 + JavaScript
 + jQuery 
 + Grid 
